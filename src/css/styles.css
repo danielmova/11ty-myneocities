@@ -166,8 +166,8 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   padding: 3rem 2rem;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 0, 0);
+  text-shadow: 2px 2px 4px rgba(0, 255, 34, 0.5);
 }
 
 /* This is
