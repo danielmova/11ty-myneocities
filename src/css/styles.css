@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@font-face {
+  font-family: "New Rocker";
+  src: url('../fonts/NewRocker-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root {
   --bg-color: #ffffff;
@@ -14,7 +19,7 @@
   --grid-gutter: 2rem;
   --font-size: 1.6rem;
   --font-color: #333;
- --font-family-display: "New Rocker", system-ui;
+  --font-family-display: "New Rocker", system-ui;
   --font-family-sans: -apple-system, "BlinkMacSystemFont", "Avenir",
     "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
