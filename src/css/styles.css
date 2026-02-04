@@ -7,7 +7,7 @@
 
 :root {
   --bg-color: #ffffff;
-  --bg-secondary-color: #f3f3f6;
+  --bg-secondary-color: #cacaca;
   --color-primary: #e95757;
   --color-secondary: #d34545;
   --color-lightGrey: #d2d6dd;
@@ -31,6 +31,8 @@ h1{
 }
 
 body {
+  background-image: url(../img/BackgroundLight.png);
+  background-repeat: repeat;
   background-color: var(--bg-color);
   line-height: 1.6;
   font-size: var(--font-size);
@@ -42,7 +44,7 @@ body {
 }
 
 body.dark {
-  background-image: url(../img/prueba.jpg);
+  background-image: url(../img/BackgroundDark.png);
   background-repeat: repeat;
   --bg-color: #000;
   --bg-secondary-color: #131316;
@@ -60,7 +62,7 @@ body.dark {
 .content{
   display: flex;
   height: 100vh;
-  width: 85%;
+  width: clamp(1rem, 100vw, 1440px);
   overflow: hidden;
 }
 
@@ -107,6 +109,7 @@ aside{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0;
   gap: 10px;
   list-style: none;
 }
