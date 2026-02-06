@@ -197,13 +197,13 @@ a:hover{
   justify-content: center;
   width: clamp(1rem, 100vw, 1440px);
   min-height: 300px;
-  background-image: url(../img/header_background_img.png);
+  background-image: url(../img/HeaderBackground.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 3rem 2rem;
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+  text-shadow: 2px 2px 4px var(--color-primary);
   box-sizing: border-box;
 }
 
