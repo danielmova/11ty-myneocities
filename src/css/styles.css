@@ -62,7 +62,7 @@ body.dark {
 .content{
   display: flex;
   height: 100vh;
-  width: clamp(1rem, 100vw, 1440px);
+  width: clamp(1rem, 100vw, 1290px);
   overflow: hidden;
 }
 
