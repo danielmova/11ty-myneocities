@@ -8,6 +8,13 @@ module.exports = function (eleventyConfig) {
     if (!Array.isArray(arr)) return [];
     return arr.slice(0, amount);
   });
+
+  eleventyConfig.addFilter('exclude', (collection, stringToFilter) => {
+  if (!stringToFilter) {
+    return collection;
+  }
+  return (collection ?? []).filter((item) => item !== stringToFilter);
+  });
   
   return {
     passthroughFileCopy: true,

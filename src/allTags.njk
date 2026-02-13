@@ -1,0 +1,17 @@
+---
+title: All Tags
+layout: layouts/base.njk
+---
+
+<h1>All Tags</h1>
+
+<ul>
+{% for tag, posts in collections %}
+  {% if tag !== "all" and tag !== "nav" and tag !== "blog" %}
+    <li>
+      <a href="/tags/{{ tag }}/">{{ tag }}</a>
+      ({{ posts.length }} posts)
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>

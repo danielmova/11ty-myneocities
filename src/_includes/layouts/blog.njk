@@ -2,4 +2,14 @@
 layout: layouts/base.njk
 ---
 <h1>{{ title }}</h1>
+
+{% if tags %}
+<p class="tags">
+	{% for tag in tags | exclude('blog') %}
+		<a href="/tags/{{ tag }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+	{% endfor %}
+    <small>{{ page.date.toISOString().slice(0,10) }}</small>
+</p>
+{% endif %}
+
 <article>{{ content | safe}}</article>
