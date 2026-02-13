@@ -4,6 +4,8 @@ layout: layouts/base.njk
 ---
 <h1>Welcome to my blog</h1>
 
+<a href="/allTags/">All Tags</a>
+
 <h2>Laterst post</h2>
 <ul>
   {% for post in collections.blog | reverse | limit(1) %}
