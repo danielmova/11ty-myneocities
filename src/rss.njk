@@ -1,0 +1,23 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Your Feed Title</title>
+  <description>DescriptionOfYourBlog</description>
+  <link>https://danielmova.neocities.org</link>
+  {% if collections.blogPosts.length > 0 %}<lastBuildDate>{{ collections.blogPosts[0].date | dateToRfc822 }}</lastBuildDate>{% endif %}
+  <ttl>1440</ttl>
+
+  {% for post in collections.blogPosts %}
+  <item>
+    <title>{{ post.data.title }}</title>
+    <description>{{ post.data.description }}</description>
+    <link>https://danielmova.neocities.org{{ post.url }}</link>
+    <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+  </item>
+  {% endfor %}
+</channel>
+</rss>

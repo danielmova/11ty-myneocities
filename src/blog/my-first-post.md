@@ -1,6 +1,10 @@
 ---
 title: My First Blog Post
 date: 2026-01-21
+description: This is my first blog post... enjoy!!!
+tags: 
+    - Queso
+    - Pasas
 ---
 
 ## Cosas que no me gustan del estado actual de la página
