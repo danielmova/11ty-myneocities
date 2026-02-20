@@ -7,7 +7,7 @@ layout: layouts/base.njk
 
 <ul>
 {% for tag, posts in collections %}
-  {% if tag !== "all" and tag !== "nav" and tag !== "blog" %}
+  {% if tag !== "all" and tag !== "nav" and tag !== "blog" and tag !== "blogPosts" %}
     <li>
       <a href="/tags/{{ tag }}/">{{ tag }}</a>
       ({{ posts.length }} posts)

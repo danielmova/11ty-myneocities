@@ -3,31 +3,31 @@ title: About
 layout: layouts/base.njk
 ---
 
-# About me
+# About Me
 
-Hi! My name is Daniel. I draw, I edit videos here and there, I design social media content for others as my job and I love learning about technology and programming.
+Hi! My name is Daniel. I draw, edit videos from time to time, design social media content for a living, and love learning about technology and programming.
 
-I created this space to express myself and practice my English in the process. It’s a nice feeling to think that someone is taking the time to read my words… Thank you.
+I created this space to express myself and practice my English in the process. It’s a nice feeling to think that someone is taking the time to read my words—thank you.
 
-## About This page
+## About This Page
 
-This is my personal website, created with <a href="https://www.11ty.dev/" target="_blank">11ty</a>, various community resources, and hosted on <a href="https://neocities.org" target="_blank">Neocities</a>. If you’re interested in what I used to build this page... here it is.
+This is my personal website, created with <a href="https://www.11ty.dev/" target="_blank">11ty</a>, various community resources, and hosted on <a href="https://neocities.org" target="_blank">Neocities</a>. If you’re interested in what I used to build this page, here it is.
 
-### Usefull links
+### Useful Links
 
-*   To be honest, this is not my first time creating a webpage. Most of my "knowledge" comes from 
+*   To be honest, this isn't my first time creating a webpage. Most of my "knowledge" comes from 
 <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>. 
-It’s a course covering the basics of web development—Yeah it’s a lot of work and it's hard, but it's worth it. This path helped me understand the foundations of HTML, CSS, JavaScript, Git, and even Linux with the scary terminal and all.
+It’s a course that covers the basics of web development. Yeah, it’s a lot of work and it’s hard, but it’s worth it. This path helped me understand the foundations of HTML, CSS, JavaScript, Git, and even Linux—with the scary terminal and all.
 
-*   If you follow the <a href="https://www.theodinproject.com/paths/foundations/courses/foundations" target="_blank">Foundations</a> course there, you’ll probably be able to replicate basic static pages. However, <a href="https://neocities.org/browse?tag=" target="_blank">Neocities</a> is full of beautiful pages with things you won't know how to do right away. For me, that was consistent elements between the entire site (headers, navbars, and footers). Those things sound essential for the modern web, but they felt like black magic with my basic understanding. Anyways... the solution was learning a Static Site Generator. I chose <a href="https://www.11ty.dev/" target="_blank">11ty</a> because it looked simple (<a href="https://neocities.org/tutorials" target="_blank">Neocities</a> has other options in their Learning tab).
+*   If you follow the <a href="https://www.theodinproject.com/paths/foundations/courses/foundations" target="_blank">Foundations</a> course there, you’ll probably be able to build basic static pages. However, <a href="https://neocities.org/browse?tag=" target="_blank">Neocities</a> is full of beautiful pages with things you won't know how to do right away. For me, that was consistent elements between the entire site (headers, navbars, and footers). These sound essential for the modern web but with my basic understanding, they felt like black magic. Anyway, the solution was to learn a static site generator. I chose <a href="https://www.11ty.dev/" target="_blank">11ty</a> because it looked simple (<a href="https://neocities.org/tutorials" target="_blank">Neocities</a> offers other options in its Learning tab).
 
-*   There are two **AMAZING TUTORIALS** on how to use <a href="https://www.11ty.dev/" target="_blank">11ty</a>: <a href="https://flamedfury.com/guides/11ty-homepage-neocities/" target="_blank">Flammed &quot;Create A Static Site...&quot;</a> and <a href="https://afellowu.neocities.org/blog/11ty-github-and-neocities" target="_blank">Afellowu &quot;11ty, GitHub and Neocities&quot;</a> the latter fuctions as a sequel to the first one but You can follow just the second one if you want; Flammed’s guide is a bit outdated, but it's still crystal clear.
+*   There are two **AMAZING TUTORIALS** on how to use <a href="https://www.11ty.dev/" target="_blank">11ty</a>: <a href="https://flamedfury.com/guides/11ty-homepage-neocities/" target="_blank">Flammed &quot;Create A Static Site...&quot;</a> and <a href="https://afellowu.neocities.org/blog/11ty-github-and-neocities" target="_blank">Afellowu &quot;11ty, GitHub and Neocities&quot;</a> the latter functions as a sequel to the first one but you can follow just the second one if you want. Flammed’s guide is a bit outdated, but it’s still crystal clear.
 
-*   I love the layout on <a href="https://nomnomnami.com/" target="_blank">NomnomNami</a>; it’s clear and simple enough to use as a reference. I spent hours on the <a href="https://developer.chrome.com/docs/devtools" target="_blank">DevTools</a> just analyzing how that page was made. I encourage you to do the same with any site you like. Even if you can't replicate this or that detail, it’s a great learning experience.
+*   I love <a href="https://nomnomnami.com/" target="_blank">NomnomNami</a> layout; it’s clear and simple enough to use as a reference. I spent hours on the <a href="https://developer.chrome.com/docs/devtools" target="_blank">DevTools</a> just analyzing how that page was made. I encourage you to do the same with any site you like. Even if you can't recreate this or that detail, it’s a great learning experience.
     
-    > Just to be clear, DO NOT COPY AND PASTE CODE FROM OTHERS, use it as a reference to create something of your own!.
+    > Just to be clear: DO NOT copy and paste code from others—use it as a reference to create something of your own!
     
-*   Creating CSS from scratch is a daunting task. Coding every button, form, and header is rewarding, but the fear of the "blank CSS page" led me to research <a href="https://en.wikipedia.org/wiki/CSS_framework" target="_blank">CSS Frameworks</a> for a week. I eventually chose <a href="https://jenil.github.io/chota/" target="_blank">Chota</a> because... it sounds funny... and is very lightweight... Oh! and after a couple of days, I actually ended up deleting most of the code and writing my own—not because I’m better, but because I didn't need so many features for this simple site. Still, it’s worth a mention!
+*   Creating CSS from scratch is a daunting task. Coding every button, form, and header is rewarding, but the fear of a “blank CSS page” led me to spend a week researching <a href="https://en.wikipedia.org/wiki/CSS_framework" target="_blank">CSS Frameworks</a>. I eventually chose <a href="https://jenil.github.io/chota/" target="_blank">Chota</a> because... it sounds funny... and is very lightweight... Oh—and after a couple of days, I actually ended up deleting most of the code and writing my own—not because I’m better, but because I didn't need so many features for this simple site. Still, it’s worth mentioning!
 *   For the main font, I use <a href="https://fonts.google.com/specimen/New+Rocker" target="_blank">New Rocker</a>. Remember: <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> is your friend.
 *   I used this <a href="https://www.spoonflower.com/en/fabric/13511311-tarot-tapestry-large-scale-dark-grey-background-12-31-by-rachelquinlan" target="_blank">pattern</a> as a base for my background. I redrew the whole thing, adding and replacing elements that are meaningful to me.
 
