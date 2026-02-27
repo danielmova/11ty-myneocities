@@ -3,21 +3,51 @@ title: Hello World!
 layout: layouts/base.njk
 ---
 
+<h1>Hello World!</h1>
+<p>
+  My name is Daniel and this is my little corner of the internet. 
+  Here you can find… whatever is crossing my mind at the moment.
+</p>
+
 <p>
   Site build with 
   <a href="https://11ty.dev">11ty</a> and host on
   <a href="https://neocities.org/">Neocities</a>.
 </p>
 
-<p>Placeholder text</p>
-
+<h2>Laterst post</h2>
 <ul>
-  <li>Placeholder list of realy cool things</li>
-  <li>Placeholder list of realy cool things</li>
-  <li>Placeholder list of realy cool things</li>
-  <li>Placeholder list of realy cool things</li>
-  <li>Placeholder list of realy cool things</li>
+  {% for post in collections.blog | reverse | limit(1) %}
+  <li>
+    <a href="{{ post.url }}">{{ post.data.title }}</a> <small>{{ post.date.toISOString().slice(0,10) }}
+    <p>{{ post.data.description }}</p>
+    </small>
+  </li>
+  {% endfor %}
 </ul>
 
-<h2>Second section</h2>
-<p>Placeholder text</p>
+<h2>I'm listening to:</h2>
+<ul>
+  <li>
+    <a href="https://music.youtube.com/browse/MPREb_jAa5QFYkHfr" target="_blank">
+      Tras la Tormenta
+    </a>
+    <small>Rubén Blades & Willie Colón (1995)</small>
+    <p>
+      This album takes on another meaning after Willie Colón left us…
+      I love with every fiber of my heart the last song:
+      "Si el cielo se pone oscuro, no tengas miedo.
+      No le tengas temor a los nubarrones. Nunca olvides,
+      cariño, cuánto te quiero, porque un amor de verdad
+      vence a los dolores."
+    </p>
+  </li>
+    <li>
+    <a href="https://music.youtube.com/playlist?list=OLAK5uy_kF3N8MQwC3X5x_V4xwcLql9hyw5SHLm8s" target="_blank">Idols (Complete)</a>
+    <small>Yungblud (2026)</small>
+    <p>
+      I listened to this album with no expectations…
+       For the past month, “Hello Haven, Hello” has been glued in my head.
+    </p>
+  </li>
+</ul>

@@ -231,3 +231,57 @@ a:hover{
 footer{
   font-size: 1rem;
 }
+
+#HCB_comment_box{
+  height: 800px;
+}
+
+#HCB_comment_box, 
+#HCB_comment_box textarea, 
+#HCB_comment_box .author-name,
+#HCB_comment_box .hcb-comment-body,
+#HCB_comment_box .hcb-comment-tb a {
+  font-family: var(--font-family-sans);
+  color: var(--font-color);
+  font-size: var(--font-size);
+}
+
+
+#HCB_comment_box #hcb_form .home-desc a{
+  text-decoration: none;
+  font-family: var(--font-family-display);
+  color: var(--color-primary);
+}
+
+#HCB_comment_box .home-desc a:hover{
+  color: var(--color-secondary)
+}
+
+#hcb_submit#HCB_comment_box #hcb_form .btn, 
+#HCB_comment_box #HCB_comment_form_box .btn {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size);
+  border: none;
+  padding: 8px 16px;      
+  background-color: var(--color-primary);
+  color: var(--bg-color);
+  border-radius: 4px;    
+}
+
+#hcb_submit#HCB_comment_box #hcb_form .btn, 
+#HCB_comment_box #HCB_comment_form_box .btn:hover {
+  background-color: var(--color-secondary);
+  cursor: pointer;
+}
+
+#HCB_comment_box .hcb-comment-tb button{
+  font-family: var(--font-family-display);
+  font-size: medium;
+  color: var(--color-primary);
+}
+
+#HCB_comment_box .approval-msg{
+  font-family: var(--font-family-display);
+  font-size: medium;
+  color: var(--color-secondary);
+}
