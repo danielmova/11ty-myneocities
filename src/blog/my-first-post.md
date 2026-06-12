@@ -1,51 +1,25 @@
 ---
-title: My expirience creating a simple web page
-date: 2026-02-27
-description: For years I wanted a simple and personal web page. I never expected it to be this fun… and this hard.
+title: Mi experiencia creando una página web
+date: 2026-06-12
+description: Por años he querido tener mi propia página web. Nunca pensé que fuera tan divertido y difícil al mismo tiempo.
 tags: 
-    - Web page
+    - Página Web
 ---
 
-I can't recall how or when I fell in love with the idea of taking control of a little corner of the internet. What I do remember is serching, over and over again: *how to make a web page for free,* taking a course or following random tutorials that led me to a basic HTML with a *Hello World!* in ugly plain text… and then forgetting about it for months.
+No recuerdo en que punto comencé a pensar en la idea de crear un pequeño rincón en en internet, lo que si recuerdo es buscar una y otra vez *¿Cómo crear una página web gratis?.* Recuerdo tomar cursos o ver un tutorial y terminar con un HTML básico solamente con un  "Hello World". 
 
-On one of those impulsive searches, about a year and a half ago, I found <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a> a full-fledged learning course with hundreds of well explained resources and, most importantly… FREE. I started doing a couple of lessons every day during the dead hours at my boring job and before I realized it, I had finished a course! I felt pretty comfortable messing around with simple example sites, creating files and folders in the terminal with zero prior experience with Linux.
+En una de esas búsquedas hace un par de años encontré: <a href="https://www.theodinproject.com/" target="_blank">The Odin Project.</a> Un curso muy bien estructurado, con muchísimos recursos (completamente en inglés) y lo más importante... GRATIS. En medio de las horas muertas de mi trabajo hacía una o dos lecciones todos los días y cuando me dí cuenta ya había acabado el curso inicial. Me sentía cómodo creando páginas HTML sencillas, generando documentos o carpetas desde la terminal y aprendiendo un poco de Linux pero viendo las páginas en <a href="https://neocities.org" target="_blank">Neocities</a> me dí cuenta de lo mucho que me faltaba. 
 
-In the middle of that process, I discovered <a href="https://neocities.org" target="_blank">Neocities</a>. With my very basic knowledge, I felt like I finally had the pieces to build my own site.
+Necocities es un lugar lleno de creatividad hecha páginas web como: <a href="https://blamensir.neocities.org/" target="_blank">blamensir</a> o <a href="https://xsolimini.fr" target="_blank">Xsolimini</a>. Encontrarme con esos ejemplos me dejó pensando en lo poco que entendía acerca del internet. Estas personas crean experiencias interactivas con puro código y mientras tanto yo no sé cómo hacer una barra de navegación persistente... De todos modos me lancé sin miedo a ver que podía conseguir como mis conocimientos y <a href="https://neocities.org/tutorials" target="_blank">los recursos de Neocities.</a>
 
-I… I was wrong.
+Fué un proceso repetitivo, encontrar un termino o una herramienta que no conocía, buscar todo lo que pudiera acerca de ese tema y toparme con la triste realidad de que era muy complejo o no me servía para lo que quería hacer. Había muchos caminos posibles y todos requerían seguramente unos buenos meses de estudio para generar algo remotamente interesante y la verdad me daba mucha pereza dedicarle más tiempo a algo así.
 
-Exploring Neocities is a huge rabbit hole. You can find simple and beautiful websites and fever dreams like <a href="https://axayacatl.neocities.org/" target="_blank">Axayacatl</a> (in the best possible way). But I didn’t even know how to make my header appear on every page. How was I supposed to build and maintain a whole website with that level of coding?
+Mi primer descubrimiento realmente útil fue encontrar <a href="https://www.11ty.dev/" target="_blank">11ty</a> y la magia negra que son los Static Site Generators o SSG para los parceros... En pocas palabras y con mi poco conocimiento: Son herramientas para mantener páginas web de una manera más sencilla. Ej: ¿Se acuerdan de hace un par de párrafos cuando dije que no sabía cómo hacer un menú de navegación persistente en toda la página? un SSG se encarga de eso. Tú solo escribes una vez tu encabezado, tu barra de navegación o la galería de fotos de tu perro con trajecitos chistosos y luego 11ty se encarga de poblar todas las páginas web que quieras con ese elemento. También se pueden hacer mil y un cosas más pero se escapan a mi comprensión mortal.
 
-Well… with a lot of trial and error.
+Ahora bien, sería mentira decir que leyendo la documentación entendí 11ty... Las páginas de documentación parecen textos de alquimia para ojos mortales como los míos... yo necesitaba algo escrito en común y por suerte me topé con <a href="https://flamedfury.com/guides/11ty-homepage-neocities/" target="_blank">Flamedfury</a> un tutorial desactualizado que por alguna razón es la mejor guía que hay en el internet acerca de ese SSG. Tiene sus fallos como no explicarte cómo automatizar la actualización de la página pero para eso está <a href="https://afellowu.neocities.org/blog/11ty-github-and-neocities" target="_blank">!este otro tutorial!!!</a> Sigues los pasos de esas dos guías (o solo de la última que lo contiene todo, de una manera mas tosca pero lo contiene) y tienes un sitio web funcional... Sencillo, no muy a tu estilo pero funcional.
 
-Most of my research started in the <a href="https://neocities.org/tutorials" target="_blank">Neocities learning tab</a>: clicking on something I didn’t understand, hitting my head against the wall trying to figure it out, giving up after a couple of days… and then repeating the process!
+En tema de personalización... <a href="https://localghost.dev/" target="_blank">LocalGhost</a>, <a href="https://daliwali.neocities.org/" target="_blank">Daliwali</a>, <a href="https://twelvemen.neocities.org/" target="_blank">Twelve Men</a>, <a href="https://koilwood.neocities.org/" target="_blank">Koilwood</a>, <a href="https://xsolimini.fr/" target="_blank">Xsolimini</a>, <a href="https://strflr.neocities.org/" target="_blank">Strflr</a> y sobre todo <a href="https://nomnomnami.com/" target="_blank">Nomnomnami</a>. Fueron mi inspiración y mis recursos para hacer una página web atractiva. Oprimir *f12* en cualquier página que te interese y ver que puedes extraer para la tuya (sin copiar y pegar el código directamente) es la manera más sencilla de entender realmente cómo funciona toda la IndieWeb por dentro.
 
-My first major breakthrough came when I found a tutorial on <a href="https://www.11ty.dev/" target="_blank">11ty</a>. I don’t understand what kind of black magic is behind a Static Site Generator, but in a couple of hours I had a site up and running! structured, organized, and much easier to maintain.
+Al final de todo este camino, después de luchar con CSS Frameworks, elegir que variante de color rojo me gusta más y dibujar elementos a mano me di cuenta de algo importante. Yo no empecé todo este proceso porque quiera expresarme a través de HTML y Javascript... Mi manera de expresión y por lo que quería tener una página web en un primer momento es escribir, dibujar, animar, etc. Quiero que esta página web se sienta viva por el contenido que suba, no por la calidad y la complejidad técnica detrás de la misma... No me tomen a mal, aprender un poco de programación me ha abierto muchas puertas y es divertido cacharrear con el código pero mi objetivo es que este lugar sea una vitrina acerca de las cosas que me interesan en este mundo. No sé en que punto pulir esta vitrina se convirtió en todo lo que podía pensar y quiero corregir eso.
 
-It wasn’t my style, though.
-
-The next step was jumping between every Neocities page I found interesting: <a href="https://localghost.dev/" target="_blank">LocalGhost</a>, <a href="https://daliwali.neocities.org/" target="_blank">Daliwali</a>, <a href="https://twelvemen.neocities.org/" target="_blank">Twelve Men</a>, <a href="https://koilwood.neocities.org/" target="_blank">Koilwood</a>, <a href="https://xsolimini.fr/" target="_blank">Xsolimini</a>, <a href="https://strflr.neocities.org/" target="_blank">Strflr</a>, and <a href="https://nomnomnami.com/" target="_blank">Nomnomnami</a>. This last one was especially helpful for learning. The layout is beautiful and simple enough to try to replicate. I spent hours in the DevTools trying to understand how things worked and how to recreate some elements **with my own hands!!!**
-
-That process led me to a simple layout. basic but full of potential, ready to be filled with cool stuff and published on Neocities.
-
-<a href="https://flamedfury.com/guides/11ty-homepage-neocities/" target="_blank">The tutorial I followed</a> was useful but incomplete, so I had to find <a href="https://afellowu.neocities.org/blog/11ty-github-and-neocities" target="_blank">another guide</a> to set up GitHub Actions and automate the upload to Neocities. That was the easiest part of the whole process. Both guides are incredible if you're interested in using a static site generator.
-
-The rest was the long part: personalizing every detail, defining colors and fonts, building the header, implementing RSS, adding a comment section to my blog posts, and discovering a bunch of interesting features along the way.
-
-It’s absolutely worth the effort to build a web page and refine all those details but I realized something… that wasn’t my original intention. I wanted a space for my ideas to live on the internet. At some point, I lost that focus and spent a loooooong time obsessing over the technical side.
-
-Don’t get me wrong I read a lot of personal blogs, and I admire how people invest time improving their sites, implementing amazing ideas. For many of them, the site itself is the final product.
-
-But for me… the site is just the house.
-
-My ideas are not CSS and HTML. They are words and images.
-
-So I’m excited to start writing silly blog posts and sharing my creations with whoever is interested. For now, the foundation of this webpage is done… at least until the lines of code call me again to break everything and rebuild it from scratch.
-
-And that’s a beautiful thought.
-
-This place is so mine that I can destroy it and remake it from the ground up whenever I want.
-
-If you’re here because you typed “How to make a web page for free”… try it. Make something. It’s time.
-
-Thank you for being here.
+Por el momento... esta es mi página web, sencilla, directa y a mi estilo.

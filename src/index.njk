@@ -1,21 +1,21 @@
 ---
-title: Hello World!
+title: ¡Hola Mundo!
 layout: layouts/base.njk
 ---
 
-<h1>Hello World!</h1>
+<h1>¡Hola Mundo!</h1>
 <p>
-  My name is Daniel and this is my little corner of the internet. 
-  Here you can find… whatever is crossing my mind at the moment.
+  Mi nombre es Daniel y este es mi pequeño espacio en el internet.
+  Aquí están mis intereses y proyectos.
 </p>
 
 <p>
-  Site build with 
-  <a href="https://11ty.dev">11ty</a> and host on
+  Este sitio está construido con 
+  <a href="https://11ty.dev">11ty</a> y está alojado en 
   <a href="https://neocities.org/">Neocities</a>.
 </p>
 
-<h2>Laterst post</h2>
+<h2>Última entrada de mi Blog</h2>
 <ul>
   {% for post in collections.blog | reverse | limit(1) %}
   <li>
@@ -26,7 +26,7 @@ layout: layouts/base.njk
   {% endfor %}
 </ul>
 
-<h2>I'm listening to:</h2>
+<h2>Lo que estoy escuchando:</h2>
 <ul>
   <li>
     <a href="https://music.youtube.com/browse/MPREb_jAa5QFYkHfr" target="_blank">
@@ -34,8 +34,6 @@ layout: layouts/base.njk
     </a>
     <small>Rubén Blades & Willie Colón (1995)</small>
     <p>
-      This album takes on another meaning after Willie Colón left us…
-      I love with every fiber of my heart the last song:
       "Si el cielo se pone oscuro, no tengas miedo.
       No le tengas temor a los nubarrones. Nunca olvides,
       cariño, cuánto te quiero, porque un amor de verdad
@@ -46,8 +44,7 @@ layout: layouts/base.njk
     <a href="https://music.youtube.com/playlist?list=OLAK5uy_kF3N8MQwC3X5x_V4xwcLql9hyw5SHLm8s" target="_blank">Idols (Complete)</a>
     <small>Yungblud (2026)</small>
     <p>
-      I listened to this album with no expectations…
-       For the past month, “Hello Haven, Hello” has been glued in my head.
+      “Hello Haven, Hello” está en mi historial todos los meses desde que salió este disco.
     </p>
   </li>
 </ul>

@@ -2,11 +2,11 @@
 title: Blog
 layout: layouts/base.njk
 ---
-<h1>Welcome to my blog</h1>
+<h1>Bienvenido a mi Blog</h1>
 
-<a href="/allTags/">All Tags</a>
+<a href="/allTags/">Todas las etiquetas</a>
 
-<h2>Laterst post</h2>
+<h2>Última entrada</h2>
 <ul>
   {% for post in collections.blog | reverse | limit(1) %}
   <li>
@@ -15,9 +15,9 @@ layout: layouts/base.njk
   {% endfor %}
 </ul>
 
-<h2>All post</h2>
+<h2>Entradas recientes</h2>
 <ul>
-  {% for post in collections.blog | reverse %}
+  {% for post in collections.blog | reverse | limit(10) %}
   <li>
     <a href="{{ post.url }}">{{ post.data.title }}</a> <small>{{ post.date.toISOString().slice(0,10) }}</small>
   </li>
