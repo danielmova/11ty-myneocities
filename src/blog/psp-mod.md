@@ -1,12 +1,12 @@
 ---
 title: PSP la consola definitiva
 date: 2026-10-09
-description: Por años he querido tener mi propia página web. Nunca pensé que fuera tan divertido y difícil al mismo tiempo.
+description: Modernicé mi consola por completo, esto fue todo lo que utilicé.
 tags: 
     - Retro consolas
     - PSP
 ---
-Para jugar algo hoy en día necesitas prender tu computador, esperar a que se abra Steam o Epic, descargar el parche de 20 gigas, esperar a que se abra el juego, el anti cheat y que se compilen los shaders. Eso con la PSP no sucede y en este artículo dejo todo lo que aprendí y utilicé para modernizar mi PSP.
+Para jugar algo hoy en día se necesita prender tu computador, esperar a que se abra Steam o Epic, descargar el parche de 20 gigas, esperar a que se abra el juego, el anti cheat y que se compilen los shaders. Eso con la PSP no sucede y en este artículo dejo todo lo que aprendí y utilicé para modernizar mi PSP.
 
 Antes que nada, dejemos algo en claro. Estas modificaciones no requieren soldar o desarmar la consola y son la versión más económica que encontré para revivir a la PSP.
 
