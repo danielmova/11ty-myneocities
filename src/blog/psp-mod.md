@@ -20,7 +20,7 @@ Por suerte ahora tenemos alternativas. <a href="https://www.youtube.com/watch?v=
 
 Eso sí, los modelos 2000 ó 3000 necesitan una <a href="https://es.aliexpress.com/item/1005008772511611.html?spm=a2g0o.order_list.order_list_main.15.29c1194dZm6fBr&gatewayAdapt=glo2esp" target="_blank">tapa especial</a> que les permita colocar la batería y en muchos casos es necesario retirar el sticker en esa zona para que encaje correctamente. 
 
-<img src="/img/psp-mod/pspbatterycover.png" alt="PSP modificada" width="400"> <img src="/img/psp-mod/Pspostentbaterry.jpg" alt="PSP modificada" width="400">
+<img src="/img/psp-mod/pspbatterycover.png" alt="PSP modificada" width="400" max-width="100%" height="auto"> <img src="/img/psp-mod/Pspostentbaterry.jpg" alt="PSP modificada" width="400" max-width="100%" height="auto">
 
 ### Cargador:
 
@@ -28,7 +28,7 @@ Desde que me puse a investigar acerca de cómo modernizar una PSP me he encontra
 
 Por eso decidí tomar el camino sencillo, un <a href="https://es.aliexpress.com/item/1005012350712593.html?spm=a2g0o.order_list.order_list_main.10.29c1194dZm6fBr&gatewayAdapt=glo2esp" target="_blank">adaptador de barril a USB C</a> y ya está, a lo mejor en un futuro decido intentar una modificación más avanzada pero por el momento funciona y es mucho más cómodo cargar un cable extra que el cargador original.
 
-<img src="/img/psp-mod/PspusbCadapter.webp" alt="PSP modificada" width="400">
+<img src="/img/psp-mod/PspusbCadapter.webp" alt="PSP modificada" width="400" max-width="100%" height="auto">
 
 ### Memoria:
 
